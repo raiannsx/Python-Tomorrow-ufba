@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interpolação de strings
+
+    A interpolação de strings é um recurso que permite construir facilmente uma string que contenha valores de variáveis ou expressões. Exemplo:
+
+nome = 'Fulana'
+idade = 18
+frase = f'{nome} tem {idade} anos' 
+
+    Dentro das string, expressões entre chaves ({}) são substituídas pelos seus valores (convertidos para string)
+    O f antes das aspas indica que queremos que o Python faça essa substituição
+        Sem o f não funciona (faça o teste!)
+        Essas strings são chamadas de f-strings (formatted strings)
