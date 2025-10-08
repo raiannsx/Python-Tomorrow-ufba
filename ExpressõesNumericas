@@ -1,0 +1,19 @@
+#1 Importando
+from math import *
+
+a = 1
+b = -5
+c = 6
+
+#2 Calculando o valor de Delta
+delta = b**2 - 4 * a * c
+print(f"Delta: {delta}")
+
+#3 Calculando as raízes
+x1 = (-b + sqrt(delta)) / (2 * a)
+x2 = (-b - sqrt(delta)) / (2 * a)
+
+#4 Exibindo as raízes
+print(f"x1: {x1}")
+print(f"x2: {x2}")
+ 
