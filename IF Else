@@ -1,0 +1,9 @@
+sc, mm, ck = map(int, input().split())
+
+if sc == 30:
+    print("PROXIMO MUNDO")
+else:
+    faltam_sc = 30 - sc
+    faltam_mm = 6 - mm
+    faltam_ck = 3 - ck
+    print(f"{faltam_sc} {faltam_mm} {faltam_ck}")
