@@ -1,9 +1,12 @@
+# Lê a primeira linha: quantidades coletadas nas 3 caçadas
 Q1, Q2, Q3 = map(int, input().split())
 
+# Lê a segunda linha: ovos envenenados em cada caçada
 E1, E2, E3 = map(int, input().split())
 
+# Calcula o total de ovos restantes
+# Regra: cada ovo envenenado faz perder 3 ovos (1 explode + 2 recuperados)
+total = (Q1 - 3 * E1) + (Q2 - 3 * E2) + (Q3 - 3 * E3)
 
-total = (Q1 - 3*E1) + (Q2 - 3*E2) + (Q3 - 3*E3)
-    
+# Exibe o resultado final
 print(total)
-    
