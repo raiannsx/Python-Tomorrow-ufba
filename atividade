@@ -1,0 +1,9 @@
+Q1, Q2, Q3 = map(int, input().split())
+
+E1, E2, E3 = map(int, input().split())
+
+
+total = (Q1 - 3*E1) + (Q2 - 3*E2) + (Q3 - 3*E3)
+    
+print(total)
+    
